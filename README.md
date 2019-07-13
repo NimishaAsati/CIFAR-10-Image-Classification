@@ -19,12 +19,14 @@ I adjusted the learning parameters and observed the results.
 We can tweak the num_epochs to train for longer, batch_size to adjust the size of each minibatch, 
 gamma to play with the speed of convergence (learning rate), or step_size to move towards the minima.
 
-AFTER FINE TUNING PERFORMANCE IMPROVED SIGNIFICANTLY
-Model with image random Flip: 92.3% 
-Model with image random Rotation: 92.4% 
+### PERFORMANCE
+
+###### AFTER FINE TUNING PERFORMANCE IMPROVED SIGNIFICANTLY
+Accuracy of Model with image random Flip: 92.3% 
+Accuracy of Model with image random Rotation: 92.4% 
 
 
-WITHOUT Fine Tuning 
+###### WITHOUT Fine Tuning 
 Accuracy random Flip: 79.5%
 Accuracy random Rotation: 66.5%
 
